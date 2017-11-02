@@ -17,6 +17,7 @@ namespace Aula02
         /// <param name="e"></param>
         protected void Application_Start(object sender, EventArgs e)
         {
+            //GlobalConfiguration.DefaultServer.Dispose();
             GlobalConfiguration.Configure(
                 config =>
                 {
